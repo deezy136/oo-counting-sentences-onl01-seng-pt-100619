@@ -3,11 +3,11 @@ require 'pry'
 class String
 
   def sentence?(string)
-    string.scan(/\Z . /)
+   string.end_with?(".")
   end
 
   def question?
-
+    
   end
 
   def exclamation?
